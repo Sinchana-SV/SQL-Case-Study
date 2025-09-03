@@ -1,4 +1,6 @@
 # 🍕 Pizza Runner - SQL Case Study
+<img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Image" width="500" height="520">
+
 
 ## 🚀 About the Project
 This case study strengthens SQL and data analysis skills by answering real-world business questions based on a fictional pizza delivery company, **Pizza Runner**.  
@@ -16,6 +18,11 @@ Inspired by **Danny Ma's #8WeekSQLChallenge**, it focuses on SQL querying, data 
 - `pizza_names` – Pizza types (`pizza_id`, `pizza_name`)
 - `pizza_recipes` – Ingredients for each pizza (`pizza_id`, `toppings`)
 - `pizza_toppings` – Topping names (`topping_id`, `topping_name`)
+
+---
+
+## Entity Relationship Diagram
+<img width="588" height="280" alt="image" src="https://github.com/user-attachments/assets/dc9f9c59-204a-428e-964b-c4c896b86ad4" />
 
 ---
 
