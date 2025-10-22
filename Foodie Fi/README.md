@@ -16,6 +16,12 @@ Inspired by **Danny Ma's #8WeekSQLChallenge**, it strengthens SQL querying, cust
 
 ---
 
+## Entity Relationship Diagram
+
+<img src= https://8weeksqlchallenge.com/images/case-study-3-erd.png >
+
+***
+
 ## 🛠️ Setup Instructions
 
 1. **Create the database and select it:**
