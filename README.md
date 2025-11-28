@@ -7,7 +7,9 @@ This repository contains my solutions to a series of SQL challenges completed ov
 2. 🍕[**Pizza Runner**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/c2aa88860c1778bac5914b0c81ba5b0dde4136af/Pizza%20Runner/Pizza%20Runner.sql)
 3. 🍜[**Foodie-Fi**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/main/Foodie%20Fi/Foodie%20Fi.sql)
 4. 🏦[**Data Bank**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/main/Data%20Bank/Data%20Bank-%20Case%20study.sql)
-   
+5. 🥣 [**Cereal Nutrition Analytics**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/main/Cereals/Cereals.sql)
+6. 🏥 [**Medical Insurance Charges Analytics**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/main/Insurance/Insurance.sql)
+
 ## Challenge Overview
 
 ### 1. 🍽️[**Danny's Dinner**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/c2aa88860c1778bac5914b0c81ba5b0dde4136af/Danny's%20Diner/Danny's%20Diner.sql)
@@ -41,6 +43,32 @@ This repository contains my solutions to a series of SQL challenges completed ov
   - Calculated customer transaction patterns and average balances.
   - Used CTEs for cleaner, modular query design.
   - Derived business insights on active customers and profitability drivers.
+
+### 5. 🥣 [**Cereal Nutrition Analytics**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/main/Cereals/Cereals.sql) 
+
+- **Objective:** Explore a cereal nutrition dataset to understand how ingredients and calories relate to product ratings and manufacturer performance.  
+- **Key Concepts:** Indexes & views, aggregate queries, `GROUP BY`, CASE expressions, CTEs/subqueries, feature engineering (High/Low calories).  
+- **Approach:**  
+  - Created and optimised the `cereals_data` table with indexes for faster name-based lookups.  
+  - Built views to safely expose nutrition fields while hiding non-required columns.  
+  - Classified cereals into **High / Low calorie** groups using global average calories and CASE logic.  
+  - Analysed manufacturer-wise patterns and top-rated products using aggregation and sorting.  
+  - Used subqueries to compare each cereal’s calories with overall and manufacturer-specific averages.  
+
+---
+
+### 6. 🏥 [**Medical Insurance Charges Analytics**](https://github.com/Sinchana-SV/SQL-Case-Study/blob/main/Insurance/Insurance.sql)
+
+- **Objective:** Analyse a medical insurance dataset to understand how demographics and lifestyle factors impact insurance charges.  
+- **Key Concepts:** Primary keys & indexes, views, `GROUP BY` aggregations, CASE expressions, subqueries, data transformation.  
+- **Approach:**  
+  - Structured the `insurance` table with a primary key and index for efficient querying.  
+  - Summarised customers by **region, gender, and smoker status** to uncover high-risk segments.  
+  - Engineered new fields such as **`HL_Charges`** (High/Low charges) and **age–BMI ratio** to enrich the dataset.  
+  - Converted numeric `children` counts into readable categories to support segmentation.  
+  - Used subqueries to compare BMI and charges against population averages and derive actionable insights on cost drivers.  
+
+---
  
 ## 🐬Technologies Used
 - **SQL Databases**: MySQL🐬
